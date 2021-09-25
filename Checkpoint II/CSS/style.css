@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Patrick+Hand&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imagem {
+    background-image: url('https://canaisdigitaissitebr-wordpress.azurewebsites.net/wp-content/uploads/2021/01/praca_liberdade.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    width: 100%;
+    min-height: 69vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+header{
+    font-family: 'Caveat', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    border: 2px #cccccc solid;
+    background-color: rgb(32 178 170 );
+    border-radius: 2px;
+    border-color: slategray;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.7;
+
+}
+h1{
+    font-size: 50px;
+}
+.texto{
+    position:relative;
+    font-family: 'patrick', sans-serif;
+    z-index: 10;
+    background-color: azure;
+    border: 2px #af3333 solid;
+    border-radius: 10px;
+    width: 50%;
+    text-rendering: auto;
+    
+    padding: 20px;
+    top: 15%;
+    height: min-content;
+    background: rgb(32 178 170 );
+    margin: 20px;
+}
+.video{
+    
+    bottom: 10px;
+    padding: 10px;
+    background-color:  rgb(95 158 160 );
+    width: 100%;
+}
+
+footer{
+    border: 2px #af3333 solid;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    }
+footer a{
+    
+    align-items: end;
+    padding-bottom: 10px 0px 10px 30px;
+}
+
+header p {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+  header h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+
+  legend {
+    font-family: 'Caveat', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+    background: none;
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+  }
+
+  input[type="radio"]{
+    cursor: pointer;
+  }
+
+  label {
+    width: 100%;
+    display: block;
+  }
+  form div {
+    margin-bottom: 20px;
+  }
+
+  input:hover {
+    background: #fff;
+    padding: 15px 10px;
+  }
+
+  .radio-select-classe {
+    display: inline;
+    cursor: pointer;
+}
+
+input[type="reset"], input[type="submit"] {
+    padding: 10px 20px;
+    width: 47%;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+} 
+
+input[type="reset"] {
+    margin-right: 4%;
+}
+
+input[type="reset"]:hover {
+    background: red;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background: darkgreen;
+    color: #fff;
+}

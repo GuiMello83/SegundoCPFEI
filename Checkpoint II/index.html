@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belo Horizonte - BELÔ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <p>O Melhor Lugar do Mundo é aqui, e agora!</p>
+        <h1>Viva Belo Horizonte</h1>
+        
+    </header>
+    <div class="imagem">
+        <main class="texto">
+            <form action="/registro" method="POST" id="form">
+                <fieldset form="form">
+                    <legend>Dados de Cadastro</legend>
+                    <div>
+                        <label for="nome">Nome: *</label>
+                        <input type="text" name="usuario" id="nome" maxlength="100" placeholder="Seu nome completo" required>
+                    </div>
+    
+                    <div>
+                        <label for="email">Email: *</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+    
+                    <div>
+                        <label for="telefone">Telefone: *</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="Somente números" required>
+                    </div>
+    
+    
+                    <div>
+                        <label for="data" id="data">Data de Nascimento: *</label>
+                        <input type="date" id="data" value="2021-09-02" min="1910-01-01" max="2021-09-02" required>
+                    </div>
+    
+                    <div>
+                        <label class="margin-bottom">Você é maior de idade? *</label><br>
+    
+                        <input type="radio" name="idade" value="maior" id="maior" required>
+                        <label class="radio-select-classe" for="maior">Sim, sou maior</label>
+    
+                        <input type="radio" name="idade" value="menor" id="menor">
+                        <label class="radio-select-classe" for="menor">Não, sou menor</label>
+                    </div>
+    
+    
+                    <div>
+                        <label for="pontoInteresse" id="pontoInteresse">Escolha um ponto de interesse em Belo Horizonte:</label>
+                        <select name="pontoInteresse" id="pontoInteresse">
+                            <option value="default">Selecionar</option>
+                            <optgroup value="0" label="Cultural">
+                                <option value="merc-municipal">Mercado Municipal</option>
+                                <option value="igrj-pampulho">Igreja da Pampulha</option>
+                            </optgroup>
+                            <optgroup value="0" label="Parques">
+                                <option value="pq-municipal">Parque Municipal</option>
+                                <option value="pq-mangabeiras">Parque das Mangabeiras</option>
+                            </optgroup>
+                            <optgroup value="0" label="Restaurante">
+                                <option value="chapuri">Xapuri</option>
+                                <option value="pizzaria-68">Pizzaria 68</option>
+                            </optgroup>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label class="margin-bottom">Qual são seus objetivos?</label><br>
+    
+                        <input type="checkbox" id="turistar" name="musica">
+                        <label class="radio-select-classe" for="turistar">Turistar</label>
+    
+                        <input type="checkbox" id="residir" name="pintura">
+                        <label class="radio-select-classe" for="residir">Residir</label>
+    
+                        <input type="checkbox" id="estudar" name="jogos">
+                        <label class="radio-select-classe" for="estudar">Estudar</label>
+                    </div>
+    
+                </fieldset>
+    
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">
+    
+            </form>
+        </main>
+    </div>
+   
+    <footer>
+        <a href="https://www.instagram.com/belohorizontemg/?hl=pt-br"><img width="32px" src="Img/instagram-logo-3.png"></a>&nbsp; 
+        <a href="https://www.youtube.com/channel/UCDH88MpQ8HqvdzRegz12dew"><img width="45px" src="Img/Youtube-Novo-Logo.jpg"></a>
+    </footer>
+</body>
+
+</html>
